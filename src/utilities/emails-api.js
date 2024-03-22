@@ -7,8 +7,8 @@ export async function getEmails() {
   return emails;
 }
 
-// export async function addEmail() {
-//   const emails = await sendRequest(`{BASE_URL}/new`, "POST", formData);
-//   return emails;
-// }
+export async function addEmail(formData) {
+  const emails = await sendRequest(BASE_URL, "POST", formData);
+  return emails;
+}
 
