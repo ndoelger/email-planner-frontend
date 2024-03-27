@@ -5,7 +5,6 @@ function EmailList() {
   const [emails, setEmails] = useState([]);
 
   const fetchEmails = async () => {
-    console.log("ya");
     const emails = await getEmails();
     setEmails(emails);
   };

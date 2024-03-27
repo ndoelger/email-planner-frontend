@@ -30,41 +30,19 @@ function Add() {
       <form onSubmit={handleSubmit}>
         <label>
           Subject:
-          <input
-            type="text"
-            value={email.subject}
-            name="subject"
-            onChange={handleChange}
-            required
-          />
+          <input type="text" value={email.subject} name="subject" onChange={handleChange} required />
         </label>
         <label>
           Preview:
-          <input
-            type="text"
-            name="preview"
-            value={email.preview}
-            onChange={handleChange}
-            required
-          />
+          <input type="text" name="preview" value={email.preview} onChange={handleChange} required />
         </label>
         <label>
           Date:
-          <input
-            type="date"
-            name="date"
-            value={email.date}
-            onChange={handleChange}
-          />
+          <input type="date" name="date" value={email.date} onChange={handleChange} />
         </label>
         <label>
           Time:
-          <input
-            type="time"
-            name="time"
-            value={email.time}
-            onChange={handleChange}
-          />
+          <input type="time" name="time" value={email.time} onChange={handleChange} />
         </label>
         <button type="submit">Submit</button>
       </form>
