@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 import "./App.css";
 import Dashboard from "./components/Dashboard";
-import EmailLine from "./components/EmailLine";
+import EmailList from "./components/EmailList";
 
 function App() {
   return (
     <div>
-      <EmailLine />
+      {/* <EmailLine /> */}
+      <EmailList />
       {/* <Dashboard /> */}
     </div>
   );

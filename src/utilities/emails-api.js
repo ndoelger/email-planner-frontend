@@ -12,3 +12,7 @@ export async function addEmail(formData) {
   return emails;
 }
 
+// export async function addEmail(id) {
+//   const emails = await sendRequest(BASE_URL, "DELETE", id);
+//   return emails;
+// }
